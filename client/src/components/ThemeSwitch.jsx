@@ -40,7 +40,7 @@ const ThemeSwitch = () => {
 				}}
 			>
 				Switch Theme
-				{open && <ThemeMenu anchorEl={anchorEl} handleClose={handleClose} switchTheme={switchTheme} mode={mode} Themes={Themes} />}
+				{open && <ThemeMenu anchorEl={anchorEl} handleClick={handleClick} handleClose={handleClose} switchTheme={switchTheme} mode={mode} Themes={Themes} />}
 			</Button>
 			<ButtonGroup
 				sx={{
